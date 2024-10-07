@@ -1,0 +1,15 @@
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    padding: 20px; 
+}
+
+.book-item {
+    text-align: center; 
+}
+
+.book-cover {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}

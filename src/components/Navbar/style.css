@@ -1,0 +1,15 @@
+.links{
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 8px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme:hover {
+    cursor: pointer;
+}
